@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block styles %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+    {% endblock %}
+    <title>Zerubabel T. Dinsa</title>
+</head>
+    {% block content %}
+          <div class="bio-container">
+            <header class="bio-header">
+              <!--<img src="IMG_1114.JPG" alt="Your Name" class="bio-photo">-->
+              <img  class="bio-photo" src="{{ url_for('static', filename='Images/IMG_1114.JPG') }}">
+              <div>
+                <h1 class="bio-name">Zerubabel T. Dinsa</h1>
+                <p class="bio-role">Mortgage Specialist | Data Enthusiast</p>
+                <a href="https://www.linkedin.com/in/zerubabel-t-dinsa-b1727833">Linkedin | <a href="https://twitter.com/Dinsa_Zerubabel">X-Platform | <a href="https://medium.com/@zerubabel.dinsa/about">Medium</a></a></a>
+              </div>
+            </header>
+            <section class="bio-description">
+              <h2 id="summary">Professional Summary</h2>
+              <p>Highly skilled and motivated professional with experience in the mortgage industry proven track record of success, including managing complex cross-functional projects and defining business performance metrics. I am passionate about the field economics and committed to delivering high-quality results in business.
+              </p>
+              
+              <h2>Experience</h2>
+              <ul>
+                <li>
+                  <strong>Finance Assiciate</strong> - Robert Half International (2016 - Present)
+                  <ul>
+                    <li>Managing complex cross-functional projects, defining business performance metrics and executing action plans</li>
+                    <li>Managing specific projects by developing and communicating idiosyncratic action plans, specific project standards and integrating best practices</li>
+                    <li>Support managing and coordinating program schedules that assist meeting the organization’s goals and client expectations</li>
+                    <li>Responsible for analyzing program scheduling and ensuring necessary project requirements are being performed</li>
+                    <li>Monitoring data quality while leading improvements in the timeliness of reporting in to senior level management in order to enable accurate business decision making</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>File Handling Specialist</strong> - First Guaranty Corporation (2015 - 2016)
+                  <ul>
+                    <li>Manage the analysis in the overall trends of both residential and the wider commercial mortgage loan applications process in post closing</li>
+                    <li>Communicate insights from written research produced for client consumption, carry out a wide range of day-to-day operations, including logistical planning of traditional mortgage loan packages</li>
+                    <li>Supervise multiple projects and develop strong relationships with institutional clients and maintain such partnerships</li>
+                    <li>Streamline communication with certain clients, respond to queries or requests for information, and answer specific calls leveraging data from both internal and external sources</li>
+                    <li>Maintain a strong understanding of the latest industry-related news flow, and keep abreast of regulatory developments</li>
+                    <li>Maintain frequent or regular interaction with sales and trading staff or personnel</li>
+                  </ul>
+                </li>
+                    <li>
+                      <strong>Student Assistant</strong> - Towson University | Albert S. Cook Library (2015 - 2016)
+                      <ul>
+                        <li>Managing the information desk</li>
+                        <li>Handling manual loans & returns</li>
+                        <li>Process e-reserves or library assets</li>
+                      </ul>
+                    </li>
+              </ul>
+              
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  <strong>Bachelor of Arts</strong> - Towson University (2013)
+                  <ul>
+                    <li>Major: International Studies</li>
+                    <li>Consentration: International Development</li>
+                    <li>Minor: Economics</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>High School Diploma</strong> - Montegomery Blair High School (2008)
+                </li>
+              </ul>
+              
+              <h2>Professional Skills</h2>
+              <ul>
+                <li>Financial Aanlysis (utilizing financial software & computer proggramming)</li>
+                <li>Generate and analyze reports to provide actionable data driven insights</li>
+              </ul>
+              
+              <h2>Awards and Certifications</h2>
+              <ul>
+                <li>American Counsel on the Teaching of Foreign Languages (ACTFL) - (2013)</li>
+              </ul>
+            </section>
+
+          </div>
+
+    {% endblock %}
+</html>
+
